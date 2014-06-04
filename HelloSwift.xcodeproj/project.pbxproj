@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55DAF992193FD1FC00D9ED5A /* Sketch Gothic School.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5587FA90193E8759005D1CC7 /* Sketch Gothic School.ttf */; };
 		55E066B5193D868D00440EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E066B4193D868D00440EF5 /* AppDelegate.swift */; };
 		55E066B7193D868D00440EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E066B6193D868D00440EF5 /* ViewController.swift */; };
 		55E066BA193D868D00440EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E066B8193D868D00440EF5 /* Main.storyboard */; };
@@ -163,6 +164,7 @@
 				TargetAttributes = {
 					55E066AE193D868D00440EF5 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 35LE74LEEW;
 					};
 					55E066C0193D868D00440EF5 = {
 						CreatedOnToolsVersion = 6.0;
@@ -194,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DAF992193FD1FC00D9ED5A /* Sketch Gothic School.ttf in Resources */,
 				55E066BA193D868D00440EF5 /* Main.storyboard in Resources */,
 				55E066BC193D868D00440EF5 /* Images.xcassets in Resources */,
 				55E066D4193E135E00440EF5 /* QuotesList.plist in Resources */,
