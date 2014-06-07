@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Elizabeth Salazar. All rights reserved.
 //
 
+import CoreText
 import UIKit
 
 @UIApplicationMain
@@ -15,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
+        let url = NSBundle(forClass: ViewController.self).URLForResource("SketchGothicSchool", withExtension: "ttf")
+        
+        var error:Unmanaged<CFError>? = nil
+        let succeeded = CTFontManagerRegisterFontsForURL(url, .Process, &error)
+        println("\(succeeded)")
+        if error {
+            let actualError = error!.takeRetainedValue()
+            let string = CFErrorCopyDescription(actualError)
+            if string {
+                NSLog("%@", string)
+            }
+        }
+        
         // Override point for customization after application launch.
         return true
     }

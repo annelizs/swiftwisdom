@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55DAF992193FD1FC00D9ED5A /* Sketch Gothic School.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5587FA90193E8759005D1CC7 /* Sketch Gothic School.ttf */; };
+		55DAF992193FD1FC00D9ED5A /* SketchGothicSchool.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5587FA90193E8759005D1CC7 /* SketchGothicSchool.ttf */; };
 		55E066B5193D868D00440EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E066B4193D868D00440EF5 /* AppDelegate.swift */; };
 		55E066B7193D868D00440EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E066B6193D868D00440EF5 /* ViewController.swift */; };
 		55E066BA193D868D00440EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E066B8193D868D00440EF5 /* Main.storyboard */; };
@@ -27,14 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5587FA90193E8759005D1CC7 /* Sketch Gothic School.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sketch Gothic School.ttf"; sourceTree = "<group>"; };
-		55E066AF193D868D00440EF5 /* HelloSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5587FA90193E8759005D1CC7 /* SketchGothicSchool.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SketchGothicSchool.ttf; sourceTree = "<group>"; };
+		55E066AF193D868D00440EF5 /* SwiftWisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E066B3193D868D00440EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E066B4193D868D00440EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E066B6193D868D00440EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55E066B9193D868D00440EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55E066BB193D868D00440EF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		55E066C1193D868D00440EF5 /* HelloSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E066C1193D868D00440EF5 /* SwiftWisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWisdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E066C6193D868D00440EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E066C7193D868D00440EF5 /* HelloSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftTests.swift; sourceTree = "<group>"; };
 		55E066D3193E135E00440EF5 /* QuotesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuotesList.plist; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		55E066B0193D868D00440EF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55E066AF193D868D00440EF5 /* HelloSwift.app */,
-				55E066C1193D868D00440EF5 /* HelloSwiftTests.xctest */,
+				55E066AF193D868D00440EF5 /* SwiftWisdom.app */,
+				55E066C1193D868D00440EF5 /* SwiftWisdomTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 		55E066B1193D868D00440EF5 /* HelloSwift */ = {
 			isa = PBXGroup;
 			children = (
-				5587FA90193E8759005D1CC7 /* Sketch Gothic School.ttf */,
+				5587FA90193E8759005D1CC7 /* SketchGothicSchool.ttf */,
 				55E066B4193D868D00440EF5 /* AppDelegate.swift */,
 				55E066B6193D868D00440EF5 /* ViewController.swift */,
 				55E066B8193D868D00440EF5 /* Main.storyboard */,
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55E066AE193D868D00440EF5 /* HelloSwift */ = {
+		55E066AE193D868D00440EF5 /* SwiftWisdom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E066CB193D868D00440EF5 /* Build configuration list for PBXNativeTarget "HelloSwift" */;
+			buildConfigurationList = 55E066CB193D868D00440EF5 /* Build configuration list for PBXNativeTarget "SwiftWisdom" */;
 			buildPhases = (
 				55E066AB193D868D00440EF5 /* Sources */,
 				55E066AC193D868D00440EF5 /* Frameworks */,
@@ -130,14 +130,14 @@
 			);
 			dependencies = (
 			);
-			name = HelloSwift;
+			name = SwiftWisdom;
 			productName = HelloSwift;
-			productReference = 55E066AF193D868D00440EF5 /* HelloSwift.app */;
+			productReference = 55E066AF193D868D00440EF5 /* SwiftWisdom.app */;
 			productType = "com.apple.product-type.application";
 		};
-		55E066C0193D868D00440EF5 /* HelloSwiftTests */ = {
+		55E066C0193D868D00440EF5 /* SwiftWisdomTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E066CE193D868D00440EF5 /* Build configuration list for PBXNativeTarget "HelloSwiftTests" */;
+			buildConfigurationList = 55E066CE193D868D00440EF5 /* Build configuration list for PBXNativeTarget "SwiftWisdomTests" */;
 			buildPhases = (
 				55E066BD193D868D00440EF5 /* Sources */,
 				55E066BE193D868D00440EF5 /* Frameworks */,
@@ -148,9 +148,9 @@
 			dependencies = (
 				55E066C3193D868D00440EF5 /* PBXTargetDependency */,
 			);
-			name = HelloSwiftTests;
+			name = SwiftWisdomTests;
 			productName = HelloSwiftTests;
-			productReference = 55E066C1193D868D00440EF5 /* HelloSwiftTests.xctest */;
+			productReference = 55E066C1193D868D00440EF5 /* SwiftWisdomTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 55E066AA193D868D00440EF5 /* Build configuration list for PBXProject "HelloSwift" */;
+			buildConfigurationList = 55E066AA193D868D00440EF5 /* Build configuration list for PBXProject "SwiftWisdom" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,8 +185,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55E066AE193D868D00440EF5 /* HelloSwift */,
-				55E066C0193D868D00440EF5 /* HelloSwiftTests */,
+				55E066AE193D868D00440EF5 /* SwiftWisdom */,
+				55E066C0193D868D00440EF5 /* SwiftWisdomTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DAF992193FD1FC00D9ED5A /* Sketch Gothic School.ttf in Resources */,
+				55DAF992193FD1FC00D9ED5A /* SketchGothicSchool.ttf in Resources */,
 				55E066BA193D868D00440EF5 /* Main.storyboard in Resources */,
 				55E066BC193D868D00440EF5 /* Images.xcassets in Resources */,
 				55E066D4193E135E00440EF5 /* QuotesList.plist in Resources */,
@@ -235,7 +235,7 @@
 /* Begin PBXTargetDependency section */
 		55E066C3193D868D00440EF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 55E066AE193D868D00440EF5 /* HelloSwift */;
+			target = 55E066AE193D868D00440EF5 /* SwiftWisdom */;
 			targetProxy = 55E066C2193D868D00440EF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,7 +338,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HelloSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftWisdom;
 			};
 			name = Debug;
 		};
@@ -349,7 +349,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HelloSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftWisdom;
 			};
 			name = Release;
 		};
@@ -368,7 +368,7 @@
 				INFOPLIST_FILE = HelloSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftWisdomTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -384,7 +384,7 @@
 				INFOPLIST_FILE = HelloSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftWisdomTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -392,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55E066AA193D868D00440EF5 /* Build configuration list for PBXProject "HelloSwift" */ = {
+		55E066AA193D868D00440EF5 /* Build configuration list for PBXProject "SwiftWisdom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E066C9193D868D00440EF5 /* Debug */,
@@ -401,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E066CB193D868D00440EF5 /* Build configuration list for PBXNativeTarget "HelloSwift" */ = {
+		55E066CB193D868D00440EF5 /* Build configuration list for PBXNativeTarget "SwiftWisdom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E066CC193D868D00440EF5 /* Debug */,
@@ -410,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E066CE193D868D00440EF5 /* Build configuration list for PBXNativeTarget "HelloSwiftTests" */ = {
+		55E066CE193D868D00440EF5 /* Build configuration list for PBXNativeTarget "SwiftWisdomTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55E066CF193D868D00440EF5 /* Debug */,

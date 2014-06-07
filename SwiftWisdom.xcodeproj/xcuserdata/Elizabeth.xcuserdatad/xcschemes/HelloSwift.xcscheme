@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "55E066AE193D868D00440EF5"
-               BuildableName = "HelloSwift.app"
-               BlueprintName = "HelloSwift"
-               ReferencedContainer = "container:HelloSwift.xcodeproj">
+               BuildableName = "SwiftWisdom.app"
+               BlueprintName = "SwiftWisdom"
+               ReferencedContainer = "container:SwiftWisdom.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "55E066C0193D868D00440EF5"
-               BuildableName = "HelloSwiftTests.xctest"
-               BlueprintName = "HelloSwiftTests"
-               ReferencedContainer = "container:HelloSwift.xcodeproj">
+               BuildableName = "SwiftWisdomTests.xctest"
+               BlueprintName = "SwiftWisdomTests"
+               ReferencedContainer = "container:SwiftWisdom.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "55E066AE193D868D00440EF5"
-            BuildableName = "HelloSwift.app"
-            BlueprintName = "HelloSwift"
-            ReferencedContainer = "container:HelloSwift.xcodeproj">
+            BuildableName = "SwiftWisdom.app"
+            BlueprintName = "SwiftWisdom"
+            ReferencedContainer = "container:SwiftWisdom.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "55E066AE193D868D00440EF5"
-            BuildableName = "HelloSwift.app"
-            BlueprintName = "HelloSwift"
-            ReferencedContainer = "container:HelloSwift.xcodeproj">
+            BuildableName = "SwiftWisdom.app"
+            BlueprintName = "SwiftWisdom"
+            ReferencedContainer = "container:SwiftWisdom.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "55E066AE193D868D00440EF5"
-            BuildableName = "HelloSwift.app"
-            BlueprintName = "HelloSwift"
-            ReferencedContainer = "container:HelloSwift.xcodeproj">
+            BuildableName = "SwiftWisdom.app"
+            BlueprintName = "SwiftWisdom"
+            ReferencedContainer = "container:SwiftWisdom.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

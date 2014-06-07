@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var quoteText : UILabel
     @IBOutlet var textLabel : UILabel
+    @IBOutlet var titleLabel : UILabel
     
     var titleString : String = ""
     var quoteString : String = ""
@@ -21,8 +22,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
         
+        //titleLabel.font = UIFont(name: myFont, size: 32.0)
     }
 
     override func didReceiveMemoryWarning() {
