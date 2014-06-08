@@ -14,6 +14,8 @@
 		55E066BC193D868D00440EF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E066BB193D868D00440EF5 /* Images.xcassets */; };
 		55E066C8193D868D00440EF5 /* HelloSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E066C7193D868D00440EF5 /* HelloSwiftTests.swift */; };
 		55E066D4193E135E00440EF5 /* QuotesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55E066D3193E135E00440EF5 /* QuotesList.plist */; };
+		55ED73461943BAC800F2446B /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ED73451943BAC800F2446B /* KeyboardViewController.swift */; };
+		55ED734A1943BAC800F2446B /* com.elizabethsalazar.SwiftWisdom.LockScreen.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 55ED73411943BAC800F2446B /* com.elizabethsalazar.SwiftWisdom.LockScreen.appex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +26,35 @@
 			remoteGlobalIDString = 55E066AE193D868D00440EF5;
 			remoteInfo = HelloSwift;
 		};
+		55ED73471943BAC800F2446B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E066A7193D868D00440EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55ED73401943BAC800F2446B;
+			remoteInfo = LockScreen;
+		};
+		55ED734B1943BAC800F2446B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E066A7193D868D00440EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55ED73401943BAC800F2446B;
+			remoteInfo = LockScreen;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55ED73491943BAC800F2446B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				55ED734A1943BAC800F2446B /* com.elizabethsalazar.SwiftWisdom.LockScreen.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5587FA90193E8759005D1CC7 /* SketchGothicSchool.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SketchGothicSchool.ttf; sourceTree = "<group>"; };
@@ -38,6 +68,9 @@
 		55E066C6193D868D00440EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E066C7193D868D00440EF5 /* HelloSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftTests.swift; sourceTree = "<group>"; };
 		55E066D3193E135E00440EF5 /* QuotesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuotesList.plist; sourceTree = "<group>"; };
+		55ED73411943BAC800F2446B /* com.elizabethsalazar.SwiftWisdom.LockScreen.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.elizabethsalazar.SwiftWisdom.LockScreen.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ED73441943BAC800F2446B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55ED73451943BAC800F2446B /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +88,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55ED733E1943BAC800F2446B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +103,7 @@
 			children = (
 				55E066B1193D868D00440EF5 /* HelloSwift */,
 				55E066C4193D868D00440EF5 /* HelloSwiftTests */,
+				55ED73421943BAC800F2446B /* LockScreen */,
 				55E066B0193D868D00440EF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +113,7 @@
 			children = (
 				55E066AF193D868D00440EF5 /* SwiftWisdom.app */,
 				55E066C1193D868D00440EF5 /* SwiftWisdomTests.xctest */,
+				55ED73411943BAC800F2446B /* com.elizabethsalazar.SwiftWisdom.LockScreen.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +157,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		55ED73421943BAC800F2446B /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				55ED73451943BAC800F2446B /* KeyboardViewController.swift */,
+				55ED73431943BAC800F2446B /* Supporting Files */,
+			);
+			path = LockScreen;
+			sourceTree = "<group>";
+		};
+		55ED73431943BAC800F2446B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55ED73441943BAC800F2446B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +184,13 @@
 				55E066AB193D868D00440EF5 /* Sources */,
 				55E066AC193D868D00440EF5 /* Frameworks */,
 				55E066AD193D868D00440EF5 /* Resources */,
+				55ED73491943BAC800F2446B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				55ED73481943BAC800F2446B /* PBXTargetDependency */,
+				55ED734C1943BAC800F2446B /* PBXTargetDependency */,
 			);
 			name = SwiftWisdom;
 			productName = HelloSwift;
@@ -153,6 +215,23 @@
 			productReference = 55E066C1193D868D00440EF5 /* SwiftWisdomTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		55ED73401943BAC800F2446B /* LockScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ED734F1943BAC800F2446B /* Build configuration list for PBXNativeTarget "LockScreen" */;
+			buildPhases = (
+				55ED733D1943BAC800F2446B /* Sources */,
+				55ED733E1943BAC800F2446B /* Frameworks */,
+				55ED733F1943BAC800F2446B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockScreen;
+			productName = LockScreen;
+			productReference = 55ED73411943BAC800F2446B /* com.elizabethsalazar.SwiftWisdom.LockScreen.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +248,10 @@
 					55E066C0193D868D00440EF5 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 55E066AE193D868D00440EF5;
+					};
+					55ED73401943BAC800F2446B = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 35LE74LEEW;
 					};
 				};
 			};
@@ -187,6 +270,7 @@
 			targets = (
 				55E066AE193D868D00440EF5 /* SwiftWisdom */,
 				55E066C0193D868D00440EF5 /* SwiftWisdomTests */,
+				55ED73401943BAC800F2446B /* LockScreen */,
 			);
 		};
 /* End PBXProject section */
@@ -204,6 +288,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		55E066BF193D868D00440EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55ED733F1943BAC800F2446B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,6 +321,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55ED733D1943BAC800F2446B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ED73461943BAC800F2446B /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -237,6 +336,16 @@
 			isa = PBXTargetDependency;
 			target = 55E066AE193D868D00440EF5 /* SwiftWisdom */;
 			targetProxy = 55E066C2193D868D00440EF5 /* PBXContainerItemProxy */;
+		};
+		55ED73481943BAC800F2446B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55ED73401943BAC800F2446B /* LockScreen */;
+			targetProxy = 55ED73471943BAC800F2446B /* PBXContainerItemProxy */;
+		};
+		55ED734C1943BAC800F2446B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55ED73401943BAC800F2446B /* LockScreen */;
+			targetProxy = 55ED734B1943BAC800F2446B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -389,6 +498,32 @@
 			};
 			name = Release;
 		};
+		55ED734D1943BAC800F2446B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LockScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.elizabethsalazar.SwiftWisdom.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55ED734E1943BAC800F2446B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LockScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.elizabethsalazar.SwiftWisdom.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +553,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		55ED734F1943BAC800F2446B /* Build configuration list for PBXNativeTarget "LockScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ED734D1943BAC800F2446B /* Debug */,
+				55ED734E1943BAC800F2446B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

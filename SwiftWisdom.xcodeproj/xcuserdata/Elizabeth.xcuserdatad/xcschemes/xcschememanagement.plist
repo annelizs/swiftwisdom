@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>LockScreen.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>55E066C0193D868D00440EF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55ED73401943BAC800F2446B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
