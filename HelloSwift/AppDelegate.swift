@@ -14,25 +14,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
-        let url = NSBundle(forClass: ViewController.self).URLForResource("SketchGothicSchool", withExtension: "ttf")
-        
-        var error:Unmanaged<CFError>? = nil
-        let succeeded = CTFontManagerRegisterFontsForURL(url, .Process, &error)
-        println("\(succeeded)")
-        if error {
-            let actualError = error!.takeRetainedValue()
-            let string = CFErrorCopyDescription(actualError)
-            if string {
-                NSLog("%@", string)
-            }
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+      let url = NSBundle(forClass: ViewController.self).URLForResource("SketchGothicSchool", withExtension: "ttf")
+      
+      var error:Unmanaged<CFError>? = nil
+      let succeeded = CTFontManagerRegisterFontsForURL(url, .Process, &error)
+      println("\(succeeded)")
+      if (error != nil) {
+        let actualError = error!.takeRetainedValue()
+        let string = CFErrorCopyDescription(actualError)
+        if (string != nil) {
+          NSLog("\(string)")
         }
-        
-        // Override point for customization after application launch.
-        return true
+      }
+      
+      // Override point for customization after application launch.
+      return true
     }
-
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

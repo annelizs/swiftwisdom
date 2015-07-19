@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var quoteText : UILabel
-    @IBOutlet var textLabel : UILabel
-    @IBOutlet var titleLabel : UILabel
+    @IBOutlet var quoteText : UILabel!
+    @IBOutlet var textLabel : UILabel!
+    @IBOutlet var titleLabel : UILabel!
     
     var titleString : String = ""
     var quoteString : String = ""
@@ -37,18 +37,22 @@ class ViewController: UIViewController {
         //Set my path to file
         let quotePath = NSBundle.mainBundle().pathForResource("QuotesList", ofType: "plist")
         //Save my file as a dictionary
-        let quoteDictionary: NSDictionary = NSDictionary(contentsOfFile: quotePath)
-        
-        let swiftQuoteDictionary: Dictionary<NSObject, AnyObject> = quoteDictionary
+        let quoteDictionary = NSDictionary(contentsOfFile: quotePath!)
         
         //Choose a random number to select a piece of the dictionary
         let randNum = Int(arc4random() % 8)
         //Get array of quotes + references from dictionary so I can reference each one by index value
-        let quoteTitleStringArray = String[](map(swiftQuoteDictionary.keys) { $0 as AnyObject as String })
-       // var quoteArray = swiftQuoteDictionary.values
+        let quoteTitleStringArray = quoteDictionary?.allKeys
+ 
+        var chosenQuoteTitle: String = ""
+        if let chosenTitle: AnyObject = quoteTitleStringArray?[randNum] {
+          chosenQuoteTitle = chosenTitle as! String
+        }
         
-        let chosenQuoteTitle = quoteTitleStringArray[randNum]
-        let chosenQuote = swiftQuoteDictionary[chosenQuoteTitle] as NSString as String
+        var chosenQuote: String = ""
+        if let theQuote: AnyObject = quoteDictionary?[chosenQuoteTitle] {
+          chosenQuote = theQuote as! String
+        }
         
         titleString = chosenQuoteTitle
         quoteString = chosenQuote

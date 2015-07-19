@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>601E3492-6400-4779-8608-2EA9BA43F395</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftWisdom</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C716E1430098975BDD5846E5B2D354C5279664F8</key>
+		<string>github.com:annelizs/swiftwisdom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftWisdom.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C716E1430098975BDD5846E5B2D354C5279664F8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:annelizs/swiftwisdom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C716E1430098975BDD5846E5B2D354C5279664F8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C716E1430098975BDD5846E5B2D354C5279664F8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swiftwisdom</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HelloSwift/ViewController.swift"
-            timestampString = "423788034.153066"
+            timestampString = "458988080.214836"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "randomQuoteTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HelloSwift/ViewController.swift"
-            timestampString = "423788034.153066"
+            timestampString = "458988080.214836"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "randomQuoteTapped(_:)"
             landmarkType = "5">
             <Locations>
@@ -40,6 +40,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "HelloSwift.ViewController.randomQuoteTapped (HelloSwift.ViewController)(ObjectiveC.UIButton) -&gt; ()"
                   moduleName = "HelloSwift"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Elizabeth/Desktop/HelloSwift/HelloSwift/ViewController.swift"
                   timestampString = "423535707.371762"
                   startingColumnNumber = "9223372036854775807"
@@ -54,6 +55,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "HelloSwift.ViewController.randomQuoteTapped (HelloSwift.ViewController)(ObjectiveC.UIButton) -&gt; ()"
                   moduleName = "HelloSwift"
+                  usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Elizabeth/Desktop/HelloSwift/HelloSwift/ViewController.swift"
                   timestampString = "423535707.371959"
                   startingColumnNumber = "9223372036854775807"
@@ -72,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HelloSwift/ViewController.swift"
-            timestampString = "423788034.153066"
+            timestampString = "458988080.214836"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "randomQuoteTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -88,27 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HelloSwift/ViewController.swift"
-            timestampString = "423788034.153066"
+            timestampString = "458988080.214836"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "randomQuoteTapped(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HelloSwift/ViewController.swift"
-            timestampString = "423788034.153066"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "randomQuoteTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>

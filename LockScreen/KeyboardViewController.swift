@@ -10,10 +10,14 @@ import UIKit
 
 class KeyboardViewController: UIInputViewController {
 
-    @IBOutlet var nextKeyboardButton: UIButton
+    @IBOutlet var nextKeyboardButton: UIButton!
 
-    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 
     override func updateViewConstraints() {
@@ -26,7 +30,7 @@ class KeyboardViewController: UIInputViewController {
         super.viewDidLoad()
     
         // Perform custom UI setup here
-        self.nextKeyboardButton = UIButton.buttonWithType(.System) as UIButton
+        self.nextKeyboardButton = UIButton.buttonWithType(.System) as! UIButton
     
         self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), forState: .Normal)
         self.nextKeyboardButton.sizeToFit()
@@ -54,7 +58,7 @@ class KeyboardViewController: UIInputViewController {
         // The app has just changed the document's contents, the document context has been updated.
     
         var textColor: UIColor
-        var proxy = self.textDocumentProxy as UITextDocumentProxy
+        var proxy = self.textDocumentProxy as! UITextDocumentProxy
         if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
             textColor = UIColor.whiteColor()
         } else {
